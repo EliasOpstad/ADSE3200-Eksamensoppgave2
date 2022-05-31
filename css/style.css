@@ -85,7 +85,6 @@ align-self: center;
 }
 
 .tekstboks{
-    flex: 30%;
 }
 .tekstboks p{
     border: 1px solid black;
@@ -97,8 +96,7 @@ align-self: center;
 #visualiseringHolderNr1{
     display: flex;
     justify-content: space-around;
-    margin-top: 50px;
-    flex: 70%;
+    margin-top: 50px; 
     margin-bottom: 50px;
 }
 #visualiseringHolderNr1 svg{
