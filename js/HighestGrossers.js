@@ -41,7 +41,7 @@ const svg = d3.select("#visualiseringHolderNr1")
                 .text('Inntekt for et år ->');
             
 
-/*
+/*Dette var for å lage linjediagram. Blir brukt i Årlig Billettsalg.
                 //Lager dottene i Linjediagrammet
                 svg.append("g")
                     .selectAll("dot")
@@ -128,7 +128,7 @@ const svg = d3.select("#visualiseringHolderNr1")
             d3.select(this)
             .transition()
             .duration(300)
-            .style("fill", "orange")
+            .style("fill", "grey")
             .attr("width", xVerdi.bandwidth() + 5)
             .attr("yVerdi", function(d){return yVerdi(d.TOTAL_FOR_YEAR) - 10;})
             .attr("height", function(d){return height -yVerdi(d.TOTAL_FOR_YEAR) + 10})
