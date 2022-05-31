@@ -21,7 +21,7 @@ const svg = d3.select("#visualiseringHolderNr1")
         
         
 
-        d3.csv("csv/HighestGrossers.csv").then(function(data){
+        d3.csv("https://eliasopstad.github.io/ADSE3200-Eksamensoppgave2/csv/HighestGrossers.csv").then(function(data){
             xVerdi.domain(data.map(function(d){
                 return d.MOVIE}));
             svg.append("g")
